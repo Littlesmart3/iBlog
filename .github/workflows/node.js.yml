@@ -40,5 +40,5 @@ jobs:
           SOURCE: 'build/'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: /www/wwwroot/www.littlesmart3.top/web-site/dist/
+          TARGET: /www/wwwroot/www.littlesmart3.top/web-site/
           EXCLUDE: '/dist/, /node_modules/'
