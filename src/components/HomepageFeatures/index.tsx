@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Camera',
+    title: 'Photographer',
     Svg: require('@site/static/img/camera.svg').default,
     description: (
       <>
