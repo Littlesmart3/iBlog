@@ -1,22 +1,26 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-
-
 const NAVBAR = {
-  title: "Littlesmart3 Blog",
+  title: 'Littlesmart3 Blog',
   logo: {
-    alt: "My Site Logo",
-    src: "img/logo.svg",
+    alt: 'My Site Logo',
+    src: 'img/logo.svg',
   },
   items: [
     {
-      href: "https://github.com/Littlesmart3",
-      label: "GitHub",
-      position: "right",
+      href: 'https://github.com/Littlesmart3',
+      label: 'GitHub',
+      position: 'right',
     },
+    {
+      to: 'docs/all-intro',
+      label: '文档', // 显示的名称
+      position: 'left', // 显示在导航的 左边 还是 右边
+    },
+    // { to: 'blog', label: '博客', position: 'left' },
   ],
-}
+};
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
