@@ -9,16 +9,15 @@ const NAVBAR = {
   },
   items: [
     {
+      to: 'docs/introduce',
+      label: '笔记', // 显示的名称
+      position: 'right', // 显示在导航的 左边 还是 右边
+    },
+    {
       href: 'https://github.com/Littlesmart3',
       label: 'GitHub',
       position: 'right',
     },
-    {
-      to: 'docs/all-intro',
-      label: '文档', // 显示的名称
-      position: 'left', // 显示在导航的 左边 还是 右边
-    },
-    // { to: 'blog', label: '博客', position: 'left' },
   ],
 };
 
