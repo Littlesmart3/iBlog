@@ -14,6 +14,21 @@ const NAVBAR = {
       position: 'right', // 显示在导航的 左边 还是 右边
     },
     {
+      label: '项目', // 显示的名称
+      to: 'project',
+      position: 'right', // 显示在导航的 左边 还是 右边
+    },
+    // {
+    //   label: '案例',
+    //   position: 'right',
+    //   items: [
+    //     {
+    //       label: 'three.js case',
+    //       to: '/threejs-case',
+    //     },
+    //   ],
+    // },
+    {
       href: 'https://github.com/Littlesmart3',
       label: 'GitHub',
       position: 'right',
