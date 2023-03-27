@@ -15,14 +15,14 @@ const Header: React.FC = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <div id="showcase.header.button">🥰 前往 Github 克隆项目</div>
+        <div id="showcase.header.button">🥰 前往 Github </div>
       </a>
     </div>
   );
 };
 
 const Main: React.FC = () => {
-  return <div>123</div>;
+  return <div></div>;
 };
 
 function Project(): JSX.Element {
